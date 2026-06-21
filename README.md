@@ -42,6 +42,10 @@ The `current_Time` tool uses Copilot Studio's built-in workflow capability. Its 
 
 CampusGo prioritizes structured facility records, avoids inventing unsupported locations or live conditions, distinguishes building-level maps from indoor guidance, and provides a confirmed fallback when information is incomplete.
 
+## Demo video
+
+[CampusGo: Your Smart Campus Wayfinding Buddy](https://www.youtube.com/watch?v=2HUCdyuaARs)
+
 ## Pitch deck
 
 [CampusGo Agent Pitch Deck](https://docs.google.com/presentation/d/12e56TYxTyBgep-rpSgzi3w59bDm2XL-N1G28ENSqrxo/edit)
