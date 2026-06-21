@@ -24,6 +24,7 @@ CampusGo is designed for campus-wide facility guidance. The current MVP validate
 - `facility data.xlsx` — structured facility knowledge for the MVP.
 - `Location of CVA and AAB.xlsx` — building-level map links and starting points.
 - `CampusGo Agent Pitch Deck.pptx` — the project pitch deck.
+- `CampusGo Agent.yaml` — the exported Copilot Studio BotDefinition, including the `current_Time` workflow definition.
 
 ## Recreate the MVP
 
@@ -35,7 +36,7 @@ CampusGo is designed for campus-wide facility guidance. The current MVP validate
 
 ## Built-in workflow
 
-The `current_Time` tool uses Copilot Studio's built-in workflow capability, so it is not included as a standalone export in this repository. To recreate it, add the built-in workflow in Copilot Studio and return the campus local time in HKT as `campus_current_time`.
+The `current_Time` tool uses Copilot Studio's built-in workflow capability. Its definition is included inside `CampusGo Agent.yaml`, rather than as a separate workflow file. It has no external connection references and returns the campus local time in HKT as `campus_current_time`.
 
 ## Responsible AI
 
